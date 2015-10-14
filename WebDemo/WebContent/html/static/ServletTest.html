@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4) {
+            var data = xhr.responseText;
+            document.getElementById("insert").innerHTML = data;
+        }
+    }
+    xhr.open('GET', '../../CounterServlet', true);
+    xhr.send(null);
+</script>
+<div id="insert"></div>
+</body>
+</html>

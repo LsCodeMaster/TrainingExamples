@@ -1,0 +1,5 @@
+package com.sapient.model.customer;
+
+public class getCustomerId {
+
+}

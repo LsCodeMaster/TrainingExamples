@@ -1,0 +1,7 @@
+import javax.jcr.Repository; 
+import javax.jcr.Session; 
+import org.apache.jackrabbit.core.TransientRepository; 
+
+public class FirstHop {
+
+}

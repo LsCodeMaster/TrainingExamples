@@ -1,0 +1,12 @@
+.centeredBox{
+    margin: auto;
+	border-style: ridge;
+	border-color: aqua;
+	width: 75%;
+	padding: 40 px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+h1{
+    text-align: center;
+}

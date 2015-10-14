@@ -1,0 +1,32 @@
+package com.sapient.model.login;
+import java.util.HashMap;
+
+public class Login {
+	String uname, pword;
+	HashMap<String, String> users;
+	
+	
+	public Login(String uname, String pword){
+		initialize();
+		this.uname = uname;
+		this.pword = pword;
+	}
+	
+	public boolean checkPassword(){
+		return false;
+	}
+	
+	public boolean checkUsername(){
+		return false;
+	}
+	
+	public void initialize(){
+		if (users==null){
+			users.put("danielle@gmail.com", "abc@123");
+			users.put("ian@yahoo.com", "123@abc");
+			users.put("harshit@hotmail.com", "a1b2c3!");
+			users.put("jiaju@sapient.com", "!1a2b3c");
+			users.put("alex@yahoo.com", "c0c0nut&");
+		}
+	}
+}

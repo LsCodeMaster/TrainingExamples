@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.0.xsd" >
+	
+	<context:annotation-config/>
+<!-- 	<context:component-scan base-package="com.sapient"/> -->
+	
+    <bean id="authBean" class="web.sapient.login.BasicAuthentication" scope="prototype">
+    	<property name="maxAuth" value="8"></property>
+    </bean>
+    <bean id="parBean" class="web.sapient.main.Parent">
+    	<property name="child" ref="child"/>
+    </bean>
+    <bean id="empBean" class="web.sapient.main.Employee">
+    	<constructor-arg value="Kaushal" index="0" type="String"/>
+		<constructor-arg index="1">
+			<map>
+				<entry key="1" value="A"/>
+				<entry key="2" value="B"/>
+				<entry key="3" value="C"/>
+			</map>
+		</constructor-arg>
+    </bean>
+    <bean id="parAutoName" class="web.sapient.main.Parent" autowire="byName"/>
+    <bean id="parAutoConst" class="web.sapient.main.Parent" autowire="constructor"/>
+    <bean id="parAutoType" class="web.sapient.main.Parent" autowire="byType"/>
+	<bean id="parAutoAnnotate" class="web.sapient.main.Parent"/>
+	<bean id="parQualifier" class="web.sapient.main.Parent"/>
+	<bean id="child" class="web.sapient.main.Child" p:name="Ian"/>
+</beans>
+    
+    
+    

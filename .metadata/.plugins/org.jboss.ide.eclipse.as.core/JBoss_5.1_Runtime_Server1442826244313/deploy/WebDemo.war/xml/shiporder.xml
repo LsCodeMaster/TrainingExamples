@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shiporder orderid="889923"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="shiporder.xsd">
+	<orderperson>Sapient</orderperson>
+	<shipto>
+		<name>Ian Liszewski</name>
+		<address>6503 W Waterstone Way</address>
+		<city>Edwards</city>
+		<country>US</country>
+	</shipto>
+	<item>
+		<title>India Stuff</title>
+		<note>Don't open it's presents</note>
+		<quantity>1</quantity>
+		<price>25.67</price>
+	</item>
+</shiporder>

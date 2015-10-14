@@ -1,0 +1,17 @@
+var city = "${sessionScope.city}";
+var country = "${sessionScope.country}";
+var email = "${sessionScope.email}";
+var firstName = "${sessionScope.firstName}";
+var lastName = "${sessionScope.lastName}";
+var state = "${sessionScope.state}";
+var street = "${sessionScope.street}";
+var zip = "${sessionScope.zip}";
+
+session.setAttribute("city", customer.getCity());
+session.setAttribute("country", customer.getCountry());
+session.setAttribute("email", customer.getEmail());
+session.setAttribute("firstName", customer.getFirstName());
+session.setAttribute("lastName", customer.getLastName());
+session.setAttribute("state", customer.getState());
+session.setAttribute("street", customer.getStreet());
+session.setAttribute("zip", customer.getZip());

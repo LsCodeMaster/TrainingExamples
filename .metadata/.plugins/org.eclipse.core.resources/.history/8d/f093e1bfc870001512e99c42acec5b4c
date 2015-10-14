@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HelloService
+Bundle-SymbolicName: com.sapient.sample.HelloService
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.sapient.service.impl.HelloServiceActivator
+Bundle-Vendor: SAPIENT
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework;version="1.3.0"
+Export-Package: com.sapient.sample.service

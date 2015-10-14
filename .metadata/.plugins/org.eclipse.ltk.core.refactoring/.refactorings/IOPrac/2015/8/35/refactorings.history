@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;sapin.txt&apos; to &apos;IOPrac&apos;&#x0D;&#x0A;- Original project: &apos;IOPrac&apos;&#x0D;&#x0A;- Destination element: &apos;IOPrac&apos;&#x0D;&#x0A;- Original element: &apos;sapin.txt&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=IOPrac" element1="src/iopack/sapin.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1440476963244" units="0" version="1.0"/>
+</session>

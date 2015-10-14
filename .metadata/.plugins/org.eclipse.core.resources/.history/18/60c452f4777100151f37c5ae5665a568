@@ -1,0 +1,18 @@
+
+public class ScriptFileEval {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String script = args[0];
+		String extension = script.substring(script.lastIndexOf('.') + 1, script.length());
+		
+		InputStream is = ScriptEngineScripts.class.getResourceAsStream("/" + script);
+		Reader reader = new InputStreamReader(is);
+		
+		ScriptEngineManager mgr = new ScriptEngineManager();
+		ScriptEngine engine = mgr.getEngineByExtension(extension);
+		
+		engine.eval(reader);
+	}
+
+}

@@ -1,0 +1,26 @@
+import javax.script.Bindings;
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
+
+public class HelloWorld {
+	public static void main(String[] args){
+		ScriptEngineManager mgr = new ScriptEngineManager();
+		mgr.put("op1", 4);
+		ScriptEngine engine = mgr.getEngineByName("JavaScript");
+		Bindings bindings = engine.createBindings();
+		bindings.put("op2", 5);
+		Bindings bd = mgr.getBindings();
+		try {
+			engine.eval("print('Hello Sapient!')");
+			Object result = engine.eval("op1 + op2", bindings);
+			Object bd1 = engine.eval("op1", bindings);
+			Object bd2 = engine.eval("op1", bd);
+			System.out.println("Result = " + result);
+			System.out.println(bd1 == bd2);
+		} catch (ScriptException ex) {
+			ex.printStackTrace();
+		}
+	}
+}

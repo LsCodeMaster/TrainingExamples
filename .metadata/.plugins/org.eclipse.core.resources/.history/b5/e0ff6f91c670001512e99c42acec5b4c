@@ -1,0 +1,15 @@
+package com.sapient.sample.service.impl;
+
+import com.sapient.sample.service.HelloService;
+
+
+public class HelloServiceImpl implements HelloService {
+
+
+	public String sayHello() {
+		// TODO Auto-generated method stub
+		System.out.println("Inside HelloServiceImpl.sayHello()");
+		return "Say Hello";
+	}
+
+}

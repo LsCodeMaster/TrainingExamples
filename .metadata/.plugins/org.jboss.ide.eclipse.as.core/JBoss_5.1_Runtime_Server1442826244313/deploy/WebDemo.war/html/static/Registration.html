@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div data-ng-app="sapientApp" data-ng-controller="sapientController">
+		<form name = "regfrm">
+			First Name: <input type="text" onblur = ajaxFunction() data-ng-model = "fName"><br/>
+			Last Name: <input type="text"  data-ng-model = "lName"><br/>
+			Full Name: <input type="text" name="id" value = "{{fName+' '+lName}}"><br/>
+		</form>
+		<div id = "divHello"></div>
+		<div id = "divAngular">{{fName +  " " + lName}}</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script type="text/javascript" src="../../js/ajaxForm.js"></script>
+	
+	<script type="text/javascript">
+	var app = angular.module('sapientApp', []);
+	app.controller('sapientController', function($scope){
+		$scope.fName = "Ian";
+		alert($scope.fName);
+		$scope.lName = "Liszewski";
+	});
+	</script>
+</body>
+</html>

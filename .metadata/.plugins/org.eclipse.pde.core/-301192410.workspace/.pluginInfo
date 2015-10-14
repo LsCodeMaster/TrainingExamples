@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="749" class="com.sapient.sample.service.impl.HelloServiceActivator" localization="OSGI-INF/l10n/bundle" name="HelloService" project="com.sapient.sample.HelloService" provider="SAPIENT"/>
+	<bundle bundleID="748" class="com.sapient.sample.helloworld.Activator" localization="OSGI-INF/l10n/bundle" name="HelloWorld" project="com.sapient.sample.HelloWorld" provider="SAPIENT"/>
+</map>

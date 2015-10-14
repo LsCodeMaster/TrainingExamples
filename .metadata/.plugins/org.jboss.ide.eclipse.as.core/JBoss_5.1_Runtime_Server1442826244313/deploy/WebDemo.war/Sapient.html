@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>Sapient</title>
+	<link type = "text/css" href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<br><br><br><br>
+		<h1 id="title">Welcome to Sapient...</h1>
+		<a href="html/static/login.html">Login</a>
+		<a href="html/static/Registration.html">Register</a>
+		<form name = "getName" action="html/static/login.html" onsubmit="return validateForm()" method="post">
+			<p id="p1"><strong>First name:</strong></p><br>
+			<input type="text" onkeypress="changeUp()" name="firstname">
+			<br>
+			<p id="p2"><strong>Last name:</strong></p><br>
+			<input type="text" onclick="objectTest()" onkeypress="changeUp()" name="lastname">
+			<br><br>
+			<input type="submit" value="Submit" id = "btn">
+		</form>
+		<div id = "dynamic"></div>
+		<script type="text/javascript" src="js/code.js">
+ 		</script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/ajax.js"></script>
+</head>
+<body>
+	<form action="rest/date/add" method="post">
+		Day<input type="text" name="day"/>
+		Month<input type="text" name="month"/>
+		Year<input type="text" name="year"/>
+		<input type="submit" name="submit" value="Submit"/>
+	</form>
+	<input type="button" id="updateBtn" value="Update"/>
+	<div id="updStatus"></div>
+</body>
+</html>

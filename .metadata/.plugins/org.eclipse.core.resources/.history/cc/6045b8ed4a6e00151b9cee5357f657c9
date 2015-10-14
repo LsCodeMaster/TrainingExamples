@@ -1,0 +1,19 @@
+package com.sapient.model.customer;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "CUSTOMER")
+public class GetCustomerId {
+
+
+	private int customerId;
+	
+	@Id
+    @Column(name = "USERNAME")
+	private String userName;
+}

@@ -1,0 +1,81 @@
+!SESSION 2015-09-21 12:09:34.408 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 14:38:02.807
+!MESSAGE Module WebDemo published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-21 14:38:03.912
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-09-21 14:38:29.337
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 14:49:53.555
+!MESSAGE 1 files modified in module WebDemo
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 14:53:37.797
+!MESSAGE 1 files modified in module WebDemo
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 14:53:54.293
+!MESSAGE 1 files modified in module WebDemo
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 14:55:18.597
+!MESSAGE 1 files modified in module WebDemo
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 14:57:56.557
+!MESSAGE 1 files modified in module WebDemo
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 15:01:56.635
+!MESSAGE 1 files modified in module WebDemo
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 15:05:05.075
+!MESSAGE 1 files modified in module WebDemo
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-21 15:05:45.011
+!MESSAGE 1 files modified in module WebDemo
+!SESSION 2015-09-22 10:27:47.318 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-22 10:36:31.277
+!MESSAGE Module WebDemo published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-22 10:36:32.601
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-09-22 10:36:54.432
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-09-22 10:39:26.400
+!MESSAGE 1 files modified in module WebDemo
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-09-22 10:39:32.849
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-09-22 10:39:35.573
+!MESSAGE Server processes have been terminated.
+!SESSION 2015-10-09 09:54:50.393 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-10-09 10:09:12.971
+!MESSAGE Module WebDemo published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-10-09 10:09:14.368
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-10-09 10:09:18.499
+!MESSAGE Server processes have been terminated.
